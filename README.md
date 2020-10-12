@@ -56,7 +56,7 @@ For part one, implement a simple campaign strategy where an equal number of ads 
 
 Your code should be written in the runSimpleCampaign() method in the *Main.java* file.
 
-Test your simple campaign strategy by running it multiple times in the main method and observing the results.
+Test your simple campaign strategy by running it multiple times in the main method. Observe the number of votes you can win using this simple strategy.
 
 ## Part 2: Epsilon-First Strategy
 
@@ -78,7 +78,7 @@ To apply this strategy, implement the following steps:
 
 Test this Epsilon-First campaign strategy by running it multiple times in the main method. Try changing the value of epsilon to increase the number of received votes. 
 
-Compare the results of running the Epsilon-First campaign strategy vs the results from running the previous simple strategy.
+Compare the results of running the Epsilon-First campaign strategy vs the results from running the previous simple strategy. Which strategy has a greater likelihood of generating the most votes?
 
 ## Part 3: Epsilon-Greedy Strategy
 For part 3, you will implement a more advanced strategy that uses the Epsilon-Greedy algorithm. This algorithm tries to find the right balance between learning which ad type is more effective and running the ad type that has the best results so far.
