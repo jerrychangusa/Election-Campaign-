@@ -1,3 +1,5 @@
+[![Run on Repl.it](https://repl.it/badge/github/jerrychangusa/Election-Campaign-)](https://repl.it/github/jerrychangusa/Election-Campaign-)
+
 # Election Campaign Challenge
 
 You have been tasked with running the advertising strategy for an election campaign. Your mission, should you choose to accept it, is to use your advertising budget to generate the most votes toward your campaign.
