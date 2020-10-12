@@ -11,7 +11,11 @@ Your campaign can run up to **1,000,000 total ads** from the following ad types:
 - T.V. Ad
 - Instagram Ad
 
-Each ad type may have a different likelihood of generating a vote and you are not yet sure which ad type will be the most effective. The effectiveness of each ad type will also change for each new campaign.
+Each ad type may have a different likelihood of generating a vote. For example, Facebook Ads might have a 10% chance of generating a vote or YouTube Ads might have a 90% chance of generating a vote.
+
+When the election campaign begins, you are not yet sure which ad type will be the most effective. The effectiveness of each ad type will change every time you start a new campaign.
+
+Your goal is to come up with an advertising strategy that can generate the most number of votes by running different types of ads.
 
 ## Running a Campaign
 Every campaign consists of running a series of ads to generate votes. You can run an ad by calling the Campaign.runAd method with the ad type as an argument.
@@ -34,6 +38,8 @@ int youtubeVoteReceived = Campaign.runAd(Ads.YOUTUBE_AD);
 int televisionVoteReceived = Campaign.runAd(Ads.TV_AD);
 int instagramVoteReceived = Campaign.runAd(Ads.INSTAGRAM_AD);
 ```
+
+The above code runs five ads (one of each type). Since you have an ad budget of 1,000,000 ads you can call runAd 1,000,000 times in order to generate votes.
 
 ** End a Campaign **
 To end a campaign, call the Campaign.end() method. Ending a campaign will display the total number of votes that were earned as well as the total number of ads that were run during the campaign.

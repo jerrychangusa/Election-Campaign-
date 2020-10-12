@@ -56,7 +56,7 @@ class Main {
     // Starts the ad campaign.
     Campaign.start();
 
-    // Run ads for part 1 below.
+    // Run the same number of ads for each ad type here.
 
     // Ends the ad campaign and displays the results.
     System.out.println();
