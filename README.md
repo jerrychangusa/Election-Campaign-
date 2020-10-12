@@ -4,6 +4,8 @@
 
 You have been tasked with running the advertising strategy for an election campaign. Your mission, should you choose to accept it, is to use your advertising budget to generate the most votes toward your campaign.
 
+**Before you begin, please share your Repl.it link using this [Google Form] (https://forms.gle/btrUhNCdShzZ4LHYA)**.
+
 ## Background
 
 Your campaign can run up to **1,000,000 total ads** from the following ad types:
